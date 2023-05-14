@@ -12,4 +12,6 @@ function changeTextContent(element: HTMLTitleElement | Element | null) {
 
   const heading = document.querySelector(".sr-only");
   changeTextContent(heading);
+
+  document.documentElement.setAttribute("data-theme", "dark");
 })();

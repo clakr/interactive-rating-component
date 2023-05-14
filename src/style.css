@@ -1,0 +1,6 @@
+:root {
+  --very-dark-blue: #131518;
+
+  font-family: Overpass, sans-serif;
+  background-color: var(--very-dark-blue);
+}
